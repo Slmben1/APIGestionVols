@@ -3,6 +3,7 @@ import { NextFunction, Request, Response } from "express";
 
 import ErrorResponse from "./pages/interfaces/ErrorResponse";
 
+
 //********** Middlewares **********//
 export const notFound = (
   request: Request,
